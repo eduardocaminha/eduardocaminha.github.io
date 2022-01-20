@@ -32,13 +32,13 @@ h2{
 
 #labelId{
     font-size: 1.5rem;
-    color: var(--white-color);
+    color: var(--logo-color);
 
 }
 
 #confidenceId{
     font-size: 1.5rem;
-    color: var(--font-color);
+    color: var(--logo-color);
 
 }
 
@@ -55,7 +55,7 @@ h2{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: var(--button-color);
+    background-image: linear-gradient(to right, #E0EAFC 0%, #CFDEF3  51%, #E0EAFC  100%);
     border-radius: 30px;
     padding:1rem;
     border:none;
@@ -93,7 +93,7 @@ label:hover{
     }
 
 #results{
-    color: var(--font-color);
+    color: var(--logo-color);
     margin-top: 1rem;
     text-align: center;
     font-size: 1.5rem;
