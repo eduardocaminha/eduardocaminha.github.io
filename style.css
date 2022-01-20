@@ -83,7 +83,7 @@ label{
     font-weight:900;
     transition:0.5s;
     background-size:200% auto;
-    box-shadow:0 0 3px #eee;
+    box-shadow:0 0 2px #eee;
     }
 
 label:hover{
