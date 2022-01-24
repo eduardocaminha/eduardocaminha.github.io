@@ -49,10 +49,10 @@ function gotResult(error, results) {
     console.log(results);
 
     if(results[0].label==0){
-      label.innerText = `Label: com pneumonia` + " - "
+      label.innerText = `Signs of pneumonia` + " - "
     }
     if(results[0].label==1){
-      label.innerText = `Label: sem pneumonia` + " - "
+      label.innerText = `No signs of pneumonia` + " - "
     }
 
     confidence.innerText = `Confidence: ${nf(results[0].confidence, 0, 2)}`
