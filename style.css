@@ -61,7 +61,7 @@ h2{
     background-size:200% auto;
     box-shadow:0 0 2px #eee;
     margin-top: 2rem;
-    margin-left: auto;
+    margin-left: 2.6rem;
     margin-right: auto;
     text-align:center;
     padding:1rem;
@@ -86,7 +86,7 @@ label{
     display:block;
     max-width:10rem;
     text-align:center;
-    margin-left:auto;
+    margin-left:2.6rem;
     margin-right:auto;
     color:#3366b8;
     font-weight:900;
