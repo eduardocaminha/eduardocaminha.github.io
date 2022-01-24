@@ -127,12 +127,4 @@ label:hover{
         margin-top: 4rem;
         font-size: 1rem;
     }
-    label{
-        float:none;
-        padding: inherit;
-    }
-    button{
-        float:none;
-        padding: inherit;
-    }
 }
