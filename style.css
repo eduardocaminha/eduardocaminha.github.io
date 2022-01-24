@@ -129,8 +129,10 @@ label:hover{
     }
     label{
         float:none;
+        padding: inherit;
     }
     button{
         float:none;
+        padding: inherit;
     }
 }
