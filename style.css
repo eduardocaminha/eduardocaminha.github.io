@@ -129,8 +129,10 @@ label:hover{
     }
     label{
         margin: auto;
+        float: none;
     }
-    botao{
+    #botao{
         margin: auto;
+        float: none;
     }
 }
