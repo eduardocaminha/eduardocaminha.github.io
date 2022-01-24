@@ -55,7 +55,7 @@ h2{
     border-radius:30px;
     padding: 1rem 2rem 1rem 2rem;
     display:block;
-    max-width:10rem;
+    max-width:7rem;
     font-weight:900;
     transition:0.5s;
     background-size:200% auto;
@@ -70,7 +70,11 @@ h2{
     cursor: pointer;
     border: none;
     font-size: 1rem;
-    float: left;
+}
+#botao:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #457bd1;
+    text-decoration: none;
 }
 
 #imginput{
@@ -84,7 +88,7 @@ label{
     margin-top:2rem;
     padding: 1rem 2rem 1rem 2rem;
     display:block;
-    max-width:10rem;
+    max-width:7rem;
     text-align:center;
     margin-left:2.6rem;
     margin-right:auto;
@@ -93,9 +97,8 @@ label{
     transition:0.5s;
     background-size:200% auto;
     box-shadow:0 0 2px #eee;
-    cursor: pointer;
-    float: left;
-    }
+    cursor: pointer;   
+}
 
 label:hover{
     background-position: right center; /* change the direction of the change here */
@@ -128,11 +131,11 @@ label:hover{
         font-size: 1rem;
     }
     label{
-        margin: 2rem 0 0 0;
+        margin: 2rem auto;
         display: block;
     }
     #botao{
-        margin: 2rem 0 0 0;
+        margin: 2rem auto;
         display: block;
     }
 }
