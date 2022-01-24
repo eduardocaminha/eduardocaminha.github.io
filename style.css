@@ -70,6 +70,7 @@ h2{
     cursor: pointer;
     border: none;
     font-size: 1.5rem;
+    float: left;
 }
 
 #imginput{
@@ -93,6 +94,7 @@ label{
     background-size:200% auto;
     box-shadow:0 0 2px #eee;
     cursor: pointer;
+    float: left;
     }
 
 label:hover{
@@ -124,5 +126,11 @@ label:hover{
         margin-left: auto;
         margin-top: 4rem;
         font-size: 1rem;
+    }
+    label{
+        float:none;
+    }
+    button{
+        float:none;
     }
 }
