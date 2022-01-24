@@ -128,11 +128,13 @@ label:hover{
         font-size: 1rem;
     }
     label{
-        margin: auto;
+        margin: 2rem 0 0 0;
         display: block;
+        text-align: center;
     }
     #botao{
-        margin: auto;
+        margin: 2rem 0 0 0;
         display: block;
+        text-align: center;
     }
 }
